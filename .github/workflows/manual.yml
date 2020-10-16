@@ -27,4 +27,6 @@ jobs:
     - name: Env
       run: |
         echo "Hello ${{ github.event.inputs.image }}"
-        env
+        node --version
+        yarn --version
+        lerna --version
